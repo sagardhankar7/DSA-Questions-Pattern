@@ -12,7 +12,5 @@ public class FirstIndexOfNumber {
 
         return helper(input, index+1, x);
 
-
-
     }
 }
