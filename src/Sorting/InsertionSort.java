@@ -2,9 +2,11 @@ package Sorting;
 
 // Leverage in Partially sorted data (it donot scan/ it skips)
 public class InsertionSort {
+    //todo
     public static void sort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
 //            from i onwards - array is unsorted(assume)
+            //finding the right position of ith in sorted part
             int key = arr[i];
             int j = i-1;
             while(j>=0 && arr[j] > key) {
